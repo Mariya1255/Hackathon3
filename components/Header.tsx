@@ -1,5 +1,5 @@
 import React from "react";
-import { Phone, Heart, Menu, Search, ShoppingCart } from "lucide-react";
+import { Phone, Heart, Search, ShoppingCart } from "lucide-react";
 import {ChevronDown} from "lucide-react"
 import { MdMarkEmailRead } from "react-icons/md";
 import { LuUserCog } from "react-icons/lu";
