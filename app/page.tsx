@@ -1,8 +1,5 @@
 import React from "react";
 import  Header  from "../components/Header";
-import ProductCard from "../components/ProductCard";
-import Categories from "../components/Categories"
-import Month from "../components/Month";
 import HeroBanner from "../components/HeroBanner";
 import LeatestProducts from "../components/LatestProducts";
 import FeaturedProducts from "../components/FeaturedProduct";
@@ -20,13 +17,13 @@ import ShopBanner from "../components/About/ShopBanner";
 import EcommerceA from "../components/About/Ecommerce-A";
  import EcommerceProducts from  "../components/About/EcommerceProduct"
 import Live1 from "../components/About/Live1";
-import FooterCopy from "../components/About/FooterCopy";
+import Footer1 from "../components/About/Footer1";
 import Shop from "../components/ShopList/Shop";
 import Shop1Banner from "../components/ShopList/Shop1Banner";
 import EcommerceA1 from "../components/ShopList/Ecommerce-A1";
 import Shop1 from "../components/ShopList/Shop1";
 import Live2 from "../components/ShopList/Live2";
-import FooterCopy1 from "../components/ShopList/FooterCopy1";
+import Footer2 from "../components/ShopList/Footer2";
 export default function Home() {
   
   return (  
@@ -52,14 +49,14 @@ export default function Home() {
       <EcommerceA />
       <EcommerceProducts />
       <Live1 />
-      <FooterCopy />
+      <Footer1 />
       {/* 3 Page */}
       <Shop />
       <Shop1Banner />
       <EcommerceA1 />
       <Shop1/>
       <Live2 />
-      <FooterCopy1 />
+      <Footer2 />
     </div>
   );
 }
