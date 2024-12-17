@@ -1,20 +1,20 @@
 import React from 'react'
 import Image from 'next/image'
-export default function Footer () {
+
+export default function CartBanner() {
   return (
     <div className='relative bg-white text-white rounded-lg overflow-hidden'>
         {/* Background Image */}
         <Image 
-           src="/images/Footer-banner.PNG"
-           alt='Footer banner'
-           layout="responsive" 
-           width={500}
-           height={300}
+           src="/images/Cart-banner.PNG"
+           alt='Shop Banner'
+           layout="responsive"
+           width={300}
+           height={200}
            className='w-full h-80 object-cover'
-        />  
-        
-    </div> 
-  )
+        />
+    </div>
+  );
 }
 
 

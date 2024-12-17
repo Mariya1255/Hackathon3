@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-export default function Footer () {
+
+export default function Footer11 () {
   return (
     <div className='relative bg-white text-white rounded-lg overflow-hidden'>
         {/* Background Image */}

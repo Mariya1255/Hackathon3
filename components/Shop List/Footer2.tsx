@@ -14,6 +14,14 @@ export default function FooterCopy1() {
           height={200}
           objectFit="w-full h-80 object-cover"
         />
+        <Image
+          src="/images/Last.PNG" 
+          alt="Last"
+          layout="responsive" 
+          width={300}
+          height={200}
+          objectFit="w-full h-80 object-cover"
+        />
       </div>
     </div>
   );

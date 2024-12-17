@@ -1,19 +1,20 @@
 import React from 'react'
 import Image from 'next/image'
 
-export default function Live2 () {
+export default function Footer9 () {
   return (
-     <div className='relative bg-white rounded-lg overflow-hidden'>
+    <div className='relative bg-white text-white rounded-lg overflow-hidden'>
         {/* Background Image */}
         <Image 
-           src="/images/Live-banner.PNG"
-           alt='Live banner'
+           src="/images/Footer-banner.PNG"
+           alt='Footer banner'
            layout="responsive" 
            width={500}
            height={300}
            className='w-full h-80 object-cover'
-      />
-    </div>  
+        />  
+        
+    </div> 
   )
 }
 
