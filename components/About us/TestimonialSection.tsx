@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image";
 export default function TestimonialSection() {
   return (
     <div className="container mx-auto px-6 py-12 text-center">
@@ -8,19 +8,25 @@ export default function TestimonialSection() {
 
       {/* Client Images */}
       <div className="flex justify-center items-center gap-4 mb-6">
-        <img
+        <Image
           src="/images/client1.PNG"
           alt="Client 1"
+          width={40}
+          height={40}
           className="w-16 h-16 rounded-lg object-cover shadow-md"
         />
-        <img
+        <Image
           src="/images/client2.PNG"
           alt="Client 2"
+          width={40}
+          height={40}
           className="w-16 h-16 rounded-lg object-cover shadow-md"
         />
-        <img
+        <Image
           src="/images/client3.PNG"
           alt="Client 3"
+          width={40}
+          height={40}
           className="w-16 h-16 rounded-lg object-cover shadow-md"
         />
       </div>

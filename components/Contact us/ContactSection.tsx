@@ -76,6 +76,7 @@ export default function ContactSection() {
           </form>
         </div>
       </div>
+      
 
       {/* Image */}
       <div className="hidden md:block w-full md:w-auto justify-end mt-8">

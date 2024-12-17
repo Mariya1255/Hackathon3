@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 import { AiFillStar, AiOutlineHeart } from "react-icons/ai";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
@@ -8,24 +9,24 @@ export default function ProductDetail () {
     {/* Left Section: Product Images */}
     <div className="flex flex-col gap-4">
       <div className="flex flex-col gap-2">
-        <img
+        <Image
           src="/images/Detail-banner.PNG"
           alt="Main Product"
           className="w-full h-64 object-cover rounded-md"
         />
       </div>
       <div className="flex flex-row gap-2">
-        <img
+        <Image
           src="/images/Detail2.png"
           alt="Thumbnail 2"
           className="w-16 h-16 object-cover rounded-md cursor-pointer"
         />
-        <img
+        <Image
           src="/images/Detail3.PNG"
           alt="Thumbnail 3"
           className="w-16 h-16 object-cover rounded-md cursor-pointer"
         />
-        <img
+        <Image
           src="/images/Detail4.PNG"
           alt="Thumbnail 4"
           className="w-16 h-16 object-cover rounded-md cursor-pointer"

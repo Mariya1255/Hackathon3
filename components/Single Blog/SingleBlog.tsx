@@ -1,6 +1,7 @@
 import React from "react";
 import SBlog from "./SBlog";
 import SingleB from "./SingleB";
+import Image from "next/image";
 import {Facebook, Twitter, Instagram} from "lucide-react";
 
 export default function SingleBlog() {
@@ -39,12 +40,12 @@ export default function SingleBlog() {
           </div>
           {/* Image Grid */}
           <div className="grid grid-cols-2 gap-4 my-6">
-            <img
+            <Image
               src="/images/Single1.PNG"
               alt="Single Image 1"
               className="w-full rounded-lg"
             />
-            <img
+            <Image
               src="/images/Single2.PNG"
               alt="Single Image 2"
               className="w-full rounded-lg"
@@ -63,7 +64,7 @@ export default function SingleBlog() {
           {/* Product Section */}
           <div className="grid grid-cols-4 gap-4 mt-6">
             <div className="text-center">
-              <img
+              <Image
                 src="/images/Single3.PNG"
                 alt="Single 3"
                 className="w-full h-30 rounded-lg object-cover"
@@ -72,7 +73,7 @@ export default function SingleBlog() {
               <p className="text-sm text-pink-500">$32.00 $56.00</p>
             </div>
             <div className="text-center">
-              <img
+              <Image
                 src="/images/Single4.PNG"
                 alt="Single 4"
                 className="w-full h-30 rounded-lg object-cover"
@@ -81,7 +82,7 @@ export default function SingleBlog() {
               <p className="text-sm text-pink-500">$32.00 $56.00</p>
             </div>
             <div className="text-center">
-              <img
+              <Image
                 src="/images/Single5.PNG"
                 alt="Single 5"
                 className="w-full h-30 rounded-lg object-cover"
@@ -90,7 +91,7 @@ export default function SingleBlog() {
               <p className="text-sm text-pink-500">$32.00 $56.00</p>
             </div>
             <div className="text-center">
-              <img
+              <Image
                 src="/images/Single6.PNG"
                 alt="Single 6"
                 className="w-full h-30 rounded-lg object-cover"
@@ -142,7 +143,7 @@ export default function SingleBlog() {
                Next Post </h3>
             <div className="space-y-4">
               <div className="flex items-start gap-4">
-                <img
+                <Image
                   src="/images/Single7.PNG"
                   alt="Single 7"
                   className="w-20 h-30 rounded-lg"
@@ -157,7 +158,7 @@ export default function SingleBlog() {
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <img
+                <Image
                   src="/images/Single8.PNG"
                   alt="Single 8"
                   className="w-20 h-30 rounded-lg"

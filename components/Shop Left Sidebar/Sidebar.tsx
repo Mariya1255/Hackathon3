@@ -4,6 +4,7 @@ import { AiFillStar } from "react-icons/ai"; // For stars
 import { Search } from "lucide-react"; // For search icon
 
 export default function Sidebar() {
+  
   const productBrand = [
     "☑ Coaster Furniture",
     "☑ Fusion Dot High Fashion",

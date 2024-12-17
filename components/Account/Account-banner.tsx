@@ -7,7 +7,7 @@ export default function Accountbanner () {
     {/* Background Image */}
     <Image 
       src="/images/Account-banner.PNG"
-      alt='About banner'
+      alt='Account banner'
       layout="responsive"
       width={300}
       height={200}
