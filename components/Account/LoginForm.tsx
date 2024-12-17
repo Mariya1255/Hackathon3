@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-export default function LoginForm () {
+export default function LoginForm() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-50">
       {/* Card Container */}
@@ -48,7 +48,7 @@ export default function LoginForm () {
 
         {/* Sign Up Link */}
         <p className="text-center text-sm text-gray-500 mt-4">
-          Don't have an Account?
+          Don&apos;t have an Account?{' '}
           <a
             href="#"
             className="text-blue-500 hover:underline"
@@ -60,5 +60,3 @@ export default function LoginForm () {
     </div>
   );
 }
-
-

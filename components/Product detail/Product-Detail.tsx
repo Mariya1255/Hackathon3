@@ -12,6 +12,8 @@ export default function ProductDetail () {
         <Image
           src="/images/Detail-banner.PNG"
           alt="Main Product"
+          width={40}
+          height={40}
           className="w-full h-64 object-cover rounded-md"
         />
       </div>
@@ -19,16 +21,22 @@ export default function ProductDetail () {
         <Image
           src="/images/Detail2.png"
           alt="Thumbnail 2"
+          width={40}
+          height={40}
           className="w-16 h-16 object-cover rounded-md cursor-pointer"
         />
         <Image
           src="/images/Detail3.PNG"
           alt="Thumbnail 3"
+          width={40}
+          height={40}
           className="w-16 h-16 object-cover rounded-md cursor-pointer"
         />
         <Image
           src="/images/Detail4.PNG"
           alt="Thumbnail 4"
+          width={40}
+          height={40}
           className="w-16 h-16 object-cover rounded-md cursor-pointer"
         />
       </div>

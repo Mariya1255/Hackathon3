@@ -43,11 +43,15 @@ export default function SingleBlog() {
             <Image
               src="/images/Single1.PNG"
               alt="Single Image 1"
+              width={300}
+              height={200}
               className="w-full rounded-lg"
             />
             <Image
               src="/images/Single2.PNG"
               alt="Single Image 2"
+              width={300}
+              height={200}
               className="w-full rounded-lg"
             />
           </div>
@@ -67,6 +71,8 @@ export default function SingleBlog() {
               <Image
                 src="/images/Single3.PNG"
                 alt="Single 3"
+                width={200}
+                height={300}
                 className="w-full h-30 rounded-lg object-cover"
               />
               <p className="mt-2 text-sm font-medium">Quam sed</p>
@@ -76,6 +82,8 @@ export default function SingleBlog() {
               <Image
                 src="/images/Single4.PNG"
                 alt="Single 4"
+                width={200}
+                height={300}
                 className="w-full h-30 rounded-lg object-cover"
               />
               <p className="mt-2 text-sm font-medium">Tristique sed</p>
@@ -85,6 +93,8 @@ export default function SingleBlog() {
               <Image
                 src="/images/Single5.PNG"
                 alt="Single 5"
+                width={200}
+                height={300}
                 className="w-full h-30 rounded-lg object-cover"
               />
               <p className="mt-2 text-sm font-medium">A etiam</p>
@@ -94,6 +104,8 @@ export default function SingleBlog() {
               <Image
                 src="/images/Single6.PNG"
                 alt="Single 6"
+                width={200}
+                height={300}
                 className="w-full h-30 rounded-lg object-cover"
               />
               <p className="mt-2 text-sm font-medium">Mi nisi</p>
@@ -146,6 +158,8 @@ export default function SingleBlog() {
                 <Image
                   src="/images/Single7.PNG"
                   alt="Single 7"
+                  width={20}
+                  height={30}
                   className="w-20 h-30 rounded-lg"
                 />
                 <div>
@@ -161,6 +175,8 @@ export default function SingleBlog() {
                 <Image
                   src="/images/Single8.PNG"
                   alt="Single 8"
+                  width={20}
+                  height={30}
                   className="w-20 h-30 rounded-lg"
                 />
                 <div>
