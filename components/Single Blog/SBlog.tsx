@@ -6,7 +6,7 @@ interface SBlogProps {
   title: string;
   category: string;
   date: string;
-  
+  description: string;
 }
 
 export default function BlogCard({

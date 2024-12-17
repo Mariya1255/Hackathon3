@@ -1,7 +1,6 @@
 
 import React from "react";
-import { AiOutlineStar, AiFillStar } from "react-icons/ai"; // For stars
-import { FaCircle } from "react-icons/fa"; // For color circles
+import { AiFillStar } from "react-icons/ai"; // For stars
 import { Search } from "lucide-react"; // For search icon
 
 export default function Sidebar() {

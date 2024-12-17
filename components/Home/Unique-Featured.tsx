@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+
 export default function UniqueFeatured () {
   return (
     <div className='relative bg-black text-white rounded-lg overflow-hidden'>

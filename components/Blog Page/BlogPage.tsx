@@ -1,7 +1,7 @@
 import React from "react";
 import BlogCard from "./BlogCard";
 import Sidebar from "./Sidebar";
-import Image from "next/image";
+
 export default function BlogPage() {
   return (
     <div className="bg-gray-50 min-h-screen">
