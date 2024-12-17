@@ -6,7 +6,7 @@ interface SBlogProps {
   title: string;
   category: string;
   date: string;
-  description: string;
+  
 }
 
 export default function BlogCard({
@@ -14,7 +14,6 @@ export default function BlogCard({
   title,
   category,
   date,
-  description,
 }: SBlogProps) {
   return (
     <div className="bg-white shadow-md rounded-lg overflow-hidden">

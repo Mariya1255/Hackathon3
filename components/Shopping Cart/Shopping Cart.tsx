@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function ShoppingCart() {
   const products = [
@@ -11,6 +12,7 @@ export default function ShoppingCart() {
       price: 32.0,
       quantity: 1,
       total: 219.0,
+      
     },
     {
       id: 2,
@@ -57,7 +59,7 @@ export default function ShoppingCart() {
   return (
     <div className="p-8">
       {/* Product Table */}
-      <div className="grid grid-cols-12 gap-4">
+      <div className="grid grid-cols-12 gap-4 ">
         <div className="col-span-8">
           <table className="w-full text-left border-collapse">
             <thead>
@@ -72,7 +74,12 @@ export default function ShoppingCart() {
               {products.map((product) => (
                 <tr key={product.id} className="border-b">
                   <td className="py-2 flex items-center space-x-4">
-                    <img src={product.image} className="h-16 w-16 rounded-md" alt={product.name} />
+                    <Image 
+                      src={product.image} 
+                      alt={product.name}
+                      width={64}    // Image width property
+                      height={64}   // Image height property
+                      className="h-16 w-16 rounded-md" />
                     <div>
                       <p>{product.name}</p>
                       <p className="text-gray-500 text-sm">

@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from "next/image";
 import { AiOutlineCheckCircle } from "react-icons/ai"; // Check icon
 import { AiOutlineClockCircle } from "react-icons/ai"; // Clock icon
 import { MdOutlineChecklist } from "react-icons/md"; // Checklist icon

@@ -1,7 +1,7 @@
 import React from "react";
 import BlogCard from "./BlogCard";
 import Sidebar from "./Sidebar";
-
+import Image from "next/image";
 export default function BlogPage() {
   return (
     <div className="bg-gray-50 min-h-screen">
@@ -9,7 +9,7 @@ export default function BlogPage() {
         {/* Main Blog Section */}
         <div className="w-full md:w-3/4 space-y-6">
           <BlogCard
-            imageSrc="/images/Page1.PNG"
+             imageSrc="/images/Page1.PNG"
             title="Mauris at orci non vulputate diam tincidunt nec."
             date="28 Sept 2023"
             category="Art Fashion"
