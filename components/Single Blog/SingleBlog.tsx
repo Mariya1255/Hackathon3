@@ -203,7 +203,7 @@ export default function SingleBlog() {
                 type="email"
                 placeholder="Write Your Email"
                 className="w-full p-2 border rounded"
-              />
+              />                                   
               <textarea
                 placeholder="Write Your Comment"
                 rows={4}
