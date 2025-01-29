@@ -26,6 +26,6 @@
     ".next/types/**/*.ts",
     "tailwind.config.js",
     "components/Shop List/Shop1tsx"
-  ],
+, "next.config.mjs"  ],
   "exclude": ["node_modules"]
 }

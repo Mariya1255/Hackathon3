@@ -7,7 +7,7 @@ import { allproducts } from '../../sanity/lib/queries';
 import Image from 'next/image';
 import { urlFor } from '../../sanity/lib/image';
 import { Link } from 'lucide-react';
-import { addToCart } from '../../app/actions/actions';
+import { addtoCart } from '../../app/actions/actions';
 import Swal from "sweetalert2";
 
 const CATEGORY = () => {
@@ -32,7 +32,7 @@ const CATEGORY = () => {
             timer : 1000
         })
 
-        addToCart(product)
+        addtoCart(product)
        
     }
 
